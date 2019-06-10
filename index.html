@@ -14,13 +14,13 @@
 	<div id='popup' class='popup'>
 		<div id='modal-body'>
 			<form>
-				<label for='book-name'>Book:</label>
+				<label for='book-name'>Книга:</label>
 				<input type='text' name='book-name' id='book-name' value=''/>
-				<label for='book-author'>Author:</label>
+				<label for='book-author'>Автор:</label>
 				<input type='text' name='book-author' id='book-author' value=''/>
-				<label for='book-year'>Year:</label>
-				<input type='text' name='book-year' id='book-year' value=''/>
-				<label for='book-image'>Image:</label>
+				<label for='book-year'>Год:</label>
+				<input type='number' name='book-year' id='book-year' value=''/>
+				<label for='book-image'>Изображение:</label>
 				<input type='text' name='book-image' id='book-image' value=''/>
 			</form>	
 				<div class = 'add-book-to-library'>
@@ -29,7 +29,16 @@
 				</div>
 		</div>	
 	</div>	
-	<div id='elem'></div>
+	<div id='elem'>
+		<table>
+			<tr>
+				<th scope='col'>Автор книги</th>
+				<th scope='col'>Изображение</th>
+				<th scope='col'>Название книги</th>
+				<th scope='col'>Год издания</th>
+			</tr>
+		</table>
+	</div>
 <script src='script.js' type='text/javascript'></script>
 </body>
 </html>

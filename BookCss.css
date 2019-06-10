@@ -3,11 +3,23 @@
 	font-family: Arial;
 	font-weight: bold;
 	position: absolute;
-    left: 45%;
+    top: 1%;
+	right: 30%;
 	border-radius: 5px;
 	display: block;
 	height: 40px;
 	cursor: pointer;		
+}
+button:hover {
+	background-color: red;
+}
+
+#add-book:hover {
+	background-color: red;
+}
+
+#add-book-to-library:hover, #cancel:hover {
+	background-color: red;
 }
 #add-book-to-library, #cancel {
 	background-color: rgb(40.135.251);
@@ -32,7 +44,7 @@
 }
 
 #modal-body {
-	background-color: lightgreen;
+	background-color: #A7C942;
 	padding: 10px 10px;	
 }	
 
@@ -52,32 +64,30 @@
 	border-bottom-style: solid;
 	border-top-style: solid;
 	border-color: ;
-	background-color: rgb(215,183,181);;
+	background-color: #fff;
 	max-width: 10px;
 	max-height: 10px;
 	margin-right: auto;	
 }
 .button-change, .button-delete {
 	background-color: rgb(40.135.251);
-	font-family: sans-serif;,
+	font-family: sans-serif;
 	font-weight: bold;
 	border-bottom: 2px solid #b2b2b2;
 	border-radius: 5px;	
 	cursor: pointer;
 	max-height: 40px;
 }
- td, th {
-	border: 1px solid #98bf21;
-    padding: 3px 7px 2px 7px; 	 
- }
-
-th {
-	text-align: left;
-    padding: 5px;
+ 
+th, td {
+	min-width: 200px;
+	max-width: 200px;
     background-color: #A7C942;
     color: #fff;
+	border: solid;
+	overflow: hidden;
+	text-align: center;
 }
 table {
-	width: 70%;
     border-collapse: collapse;
 }

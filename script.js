@@ -60,6 +60,9 @@ function addBookToLibrary()
 				var bookYear = document.createElement('td');
 				bookYear.className = 'book-year';
 				bookYear.innerHTML = books[bookId]['book-year'];
+				if (bookYear.innerHTML > 2017) {
+					alert ('Год издания книги не должен быть больше 2017 !');
+				} else {
 				
 				var buttonChange = document.createElement('button');
 				buttonChange.className = 'button-change';
@@ -83,7 +86,7 @@ function addBookToLibrary()
 			table.appendChild(buttonDelete);
 		
 	parent.appendChild(table);
-
+				}
 	}
 	
 	function changeBook() 
