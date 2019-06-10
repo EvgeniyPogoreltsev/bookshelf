@@ -1,0 +1,35 @@
+<DOCTYPE! html>
+<html>
+<head>
+<title>Книжная полка</title>
+<script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<link href='BookCss.css' type='text/css' rel='stylesheet'/>
+</head>
+<body>
+	<h1 id='header-books'>Книжная полка</h1>	
+		<button id='add-book' >Добавить книгу</button>		
+	<div id='popup' class='popup'>
+		<div id='modal-body'>
+			<form>
+				<label for='book-name'>Book:</label>
+				<input type='text' name='book-name' id='book-name' value=''/>
+				<label for='book-author'>Author:</label>
+				<input type='text' name='book-author' id='book-author' value=''/>
+				<label for='book-year'>Year:</label>
+				<input type='text' name='book-year' id='book-year' value=''/>
+				<label for='book-image'>Image:</label>
+				<input type='text' name='book-image' id='book-image' value=''/>
+			</form>	
+				<div class = 'add-book-to-library'>
+					<input type='submit' class='add-book-to-library' id='add-book-to-library' value='Сохранить'/>
+					<input type='submit' class='cancel' id='cancel' value='Отменить'/>
+				</div>
+		</div>	
+	</div>	
+	<div id='elem'></div>
+<script src='script.js' type='text/javascript'></script>
+</body>
+</html>

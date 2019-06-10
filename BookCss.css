@@ -1,0 +1,83 @@
+#add-book {
+	background-color: lightblue;
+	font-family: Arial;
+	font-weight: bold;
+	position: absolute;
+    left: 45%;
+	border-radius: 5px;
+	display: block;
+	height: 40px;
+	cursor: pointer;		
+}
+#add-book-to-library, #cancel {
+	background-color: rgb(40.135.251);
+	font-family: sans-serif;
+	font-weight: bold;
+	border-bottom: 2px solid #b2b2b2;
+	border-radius: 5px;	
+	cursor: pointer;
+}
+
+#header-books {
+	font-family: sans-serif;
+	color: black;
+	text-align: center;
+	}
+#book-name, #book-author, #book-year, #book-image {
+	padding: 5px 5px 5px 30px;
+	background-position: 8px 9px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#modal-body {
+	background-color: lightgreen;
+	padding: 10px 10px;	
+}	
+
+.popup {
+	width: 30%;
+	height: 40%;
+	background-color: lightblue;
+	padding: 40px 40px 30px 40px;
+	border-radius: 10px;
+	display:none;
+	position:fixed;
+	right: 10px;
+	z-index: 9999;
+}
+
+.book-shelf {
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-color: ;
+	background-color: rgb(215,183,181);;
+	max-width: 10px;
+	max-height: 10px;
+	margin-right: auto;	
+}
+.button-change, .button-delete {
+	background-color: rgb(40.135.251);
+	font-family: sans-serif;,
+	font-weight: bold;
+	border-bottom: 2px solid #b2b2b2;
+	border-radius: 5px;	
+	cursor: pointer;
+	max-height: 40px;
+}
+ td, th {
+	border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px; 	 
+ }
+
+th {
+	text-align: left;
+    padding: 5px;
+    background-color: #A7C942;
+    color: #fff;
+}
+table {
+	width: 70%;
+    border-collapse: collapse;
+}
