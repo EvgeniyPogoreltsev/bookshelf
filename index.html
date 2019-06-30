@@ -10,7 +10,7 @@
 </head>
 <body>
 	<h1 id='header-books'>Книжная полка</h1>	
-		<button id='add-book' >Добавить книгу</button>		
+	<button id='add-book' >Добавить книгу</button>		
 	<div id='popup' class='popup'>
 		<div id='modal-body'>
 			<form>
@@ -23,14 +23,14 @@
 				<label for='book-image'>Изображение:</label>
 				<input type='text' name='book-image' id='book-image' value=''/>
 			</form>	
-				<div class = 'add-book-to-library'>
-					<input type='submit' class='add-book-to-library' id='add-book-to-library' value='Сохранить'/>
-					<input type='submit' class='cancel' id='cancel' value='Отменить'/>
-				</div>
+			<div class = 'add-book-to-library'>
+				<input type='submit' class='add-book-to-library' id='add-book-to-library' value='Сохранить'/>
+				<input type='submit' class='cancel' id='cancel' value='Отменить'/>
+			</div>
 		</div>	
 	</div>	
 	<div id='elem'>
-		<table>
+		<table id='book-shelf'>
 			<tr>
 				<th scope='col'>Автор книги</th>
 				<th scope='col'>Изображение</th>
